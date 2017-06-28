@@ -1,5 +1,7 @@
 # React Dynamic Components Demo
 
+[Online Demo](https://j5bot.github.io/react-dynamic-component-demo/)
+
 Comparison of rendering React components with `switch` and `case` and with the Capitalized reference technique.
 
 Expands on using the Capitalized reference technique along with externally-defined component set for maintainability.
