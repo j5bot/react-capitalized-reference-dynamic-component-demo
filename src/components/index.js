@@ -1,8 +1,9 @@
-export { DynamicComponentType } from './DynamicComponentType';
-export { DynamicComponentTypeCollectionExternals }
-  from './DynamicComponentTypeCollectionExternals';
-export { DynamicComponentTypeExternals }
-  from './DynamicComponentTypeExternals';
+export { CapitalizedReferenceComponent }
+  from './CapitalizedReferenceComponent';
+export { CapitalizedReferenceComponentCollectionExternals }
+  from './CapitalizedReferenceComponentCollectionExternals';
+export { CapitalizedReferenceComponentExternals }
+  from './CapitalizedReferenceComponentExternals';
 export { SwitchedComponent } from './SwitchedComponent';
 
 export { Type1 } from './Type1';

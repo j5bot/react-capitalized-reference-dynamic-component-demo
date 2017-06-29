@@ -1,6 +1,6 @@
 import React from 'react'; // required to use JSX
 
-export const DynamicComponentTypeExternals = (props) => {
+export const CapitalizedReferenceComponentExternals = (props) => {
 
   // get references to all possible components
   // that this component might render
@@ -19,4 +19,4 @@ export const DynamicComponentTypeExternals = (props) => {
   );
 };
 
-export default DynamicComponentTypeExternals;
+export default CapitalizedReferenceComponentExternals;

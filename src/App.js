@@ -41,31 +41,35 @@ class App extends Component {
 
         <div className="box">
           <div className="level">
-            <h1 className="level-item title">Dynamic Component Type</h1>
+            <h1 className="level-item title">
+              <i>Capitalized Reference</i>, Dynamic Component
+            </h1>
           </div>
           <p className="notification">This component specifies the possible component types as <code>import</code>s and adds references to the component types to an object for later reference by key matching 'type'.</p>
-          <Components.DynamicComponentType
+          <Components.CapitalizedReferenceComponent
             { ...testComponentConfiguration[0] }
             />
-          <Components.DynamicComponentType
+          <Components.CapitalizedReferenceComponent
             { ...testComponentConfiguration[1] }
             />
         </div>
 
         <div className="box">
           <div className="level">
-            <h1 className="level-item title">Dynamic Component Type (Externals)</h1>
+            <h1 className="level-item title">
+              <i>Capitalized Reference</i>, Dynamic Component (Externals)
+            </h1>
           </div>
           <p className="notification">This component brings in the possible component types from <code>
             props.components</code>, which is easily provided by something
             like <code>import * as Components from './components'</code>
             where all possible components are exported in
             <code>index.js</code>.</p>
-          <Components.DynamicComponentTypeExternals
+          <Components.CapitalizedReferenceComponentExternals
             components={ Components }
             { ...testComponentConfiguration[0] }
             />
-          <Components.DynamicComponentTypeExternals
+          <Components.CapitalizedReferenceComponentExternals
             components={ Components }
             { ...testComponentConfiguration[1] }
             />
@@ -73,11 +77,13 @@ class App extends Component {
 
         <div className="box">
           <div className="level">
-            <h1 className="level-item title">Dynamic Component Type Collection (Externals)</h1>
+            <h1 className="level-item title">
+              <i>Capitalized Reference</i>, Dynamic Component Collection (Externals)
+            </h1>
           </div>
           <p className="notification">This component renders a collection of components specified by
           a configuration object.</p>
-          <Components.DynamicComponentTypeCollectionExternals
+          <Components.CapitalizedReferenceComponentCollectionExternals
             components={ Components }
             collection={ testComponentConfiguration }
             mapPropsToComponent={ mapPropsToComponent }

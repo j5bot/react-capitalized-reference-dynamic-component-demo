@@ -11,7 +11,7 @@ const Components = {
 
 // a component that will render one or more components
 // that it doesn't explicitly include in it's JSX
-export const DynamicComponentType = (props) => {
+export const CapitalizedReferenceComponent = (props) => {
 
   // make a reference using a Capitalized variable name
   // to the component you need to render
@@ -24,4 +24,4 @@ export const DynamicComponentType = (props) => {
 
 };
 
-export default DynamicComponentType;
+export default CapitalizedReferenceComponent;

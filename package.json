@@ -1,6 +1,6 @@
 {
-  "name": "react-dynamic-component-demo",
-  "homepage": "http://j5bot.github.io/react-dynamic-component-demo",
+  "name": "react-capitalized-reference-dynamic-component-demo",
+  "homepage": "http://j5bot.github.io/react-capitalized-reference-dynamic-component-demo",
   "version": "1.0.0",
   "dependencies": {
     "bulma": "^0.4.2",
