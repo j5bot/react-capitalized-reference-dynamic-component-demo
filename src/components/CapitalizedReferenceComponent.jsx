@@ -5,8 +5,8 @@ import Type2 from './Type2'; // load a second type of component
 
 // make references to the components by type
 const Components = {
-  Type1: Type1,
-  Type2: Type2
+  Type1,
+  Type2
 };
 
 // a component that will render one or more components

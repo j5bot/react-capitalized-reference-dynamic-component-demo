@@ -4,11 +4,11 @@ export const CapitalizedReferenceComponentExternals = (props) => {
 
   // get references to all possible components
   // that this component might render
-  let Components = props.components;
+  const { type, components: Components } = props;
 
   // make a Capitalized reference to a specific component
   // which we'll render
-  let Component = Components[ props.type ];
+  let Component = Components[ type ];
 
   // render the component
   return(
